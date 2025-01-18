@@ -7,7 +7,7 @@ function* contador(){
    
 let n = contador()
 for (v of n){
-    console.log()
+    console.log(v)
 }
 
 
