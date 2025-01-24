@@ -4,7 +4,8 @@ let num = [2.4, 53.3, 4.5,9.2,34.4,423,32].map(convertInt).map(dobrar)
 for (v of num){
 console.log(v)
 }
-
+ const query = document.querySelectorAll('div')
+ console.log(query)
 
 // const el = document.getElementsByTagName('div')
 // const val = Array.prototype.map.call(el, (valor) => valor)
